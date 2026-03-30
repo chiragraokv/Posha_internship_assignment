@@ -1,0 +1,72 @@
+waypoints:
+  - name: "home"
+    position:
+      x: 0.35
+      y: 0.52
+      z: 1.0
+    orientation:
+      roll: 0.0
+      pitch: -3.14
+      yaw: 0.0
+    gripper: "close"
+    action: "move"
+
+  - name: "pre_pick"
+    position:
+      x: 0.35
+      y: 0.52
+      z: 1.0
+    orientation:
+      roll: 0.0
+      pitch: -3.14
+      yaw: 0.0
+    gripper: "open"
+    action: "move"
+
+  - name: "pick"
+    position:
+      x: 0.35
+      y: 0.52
+      z: 1.0
+    orientation:
+      roll: 0.0
+      pitch: -3.14
+      yaw: 0.0
+    gripper: "close"
+    action: "pick"
+
+  - name: "post_pick"
+    position:
+      x: 0.1
+      y: 0.55
+      z: 1.0
+    orientation:
+      roll: 0.0
+      pitch: -1.57
+      yaw: 0.0
+    gripper: "close"
+    action: "move"
+
+  - name: "drop"
+    position:
+      x: 0.2
+      y: 0.4
+      z: 0.8
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    gripper: "open"
+    action: "drop"
+
+  - name: "home"
+    position:
+      x: 0.334
+      y: 0.319
+      z: 1.075
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    gripper: "open"
+    action: "move"

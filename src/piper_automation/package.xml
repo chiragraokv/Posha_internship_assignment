@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>piper_automation</name>
+  <version>0.0.1</version>
+  <description>Pick and place automation for Piper arm</description>
+  <maintainer email="chiragrao.kv@gmail.com">you</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>moveit_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>shape_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>action_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
